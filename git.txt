@@ -1,0 +1,11 @@
+git config --global user.email "llep2006@gmail.com"
+git git config --global user.name "llep2000"
+
+git init
+git add *
+git commit -m 'initial project version'
+git remote add origin https://github.com/llep2000/controlle.git
+git push --set-upstream origin master
+git push
+
+rm .git
