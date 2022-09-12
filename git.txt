@@ -9,3 +9,5 @@ git push --set-upstream origin master
 git push
 
 rm .git
+
+git remote -v
